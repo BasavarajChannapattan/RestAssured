@@ -1,0 +1,15 @@
+REST API AUTOMATION
+
+1. Create Maven Project with Cucumber and rest assured dependencies
+2. Define Project structure with Cucumber and rest Assured dependencies
+3. Create a Feature file with the test case you want to automate
+4. Implement smart step definitions files with supported code
+5. build util files to define all reusable request and responses
+6. Can print the request and response log by using addFilter method
+7. Define global properties and drive all the global variables from properties file
+8. Define dynamic json in feature file using example keyword
+   when we use example keyword Scenario should be outline
+9. Implement parameterization to run tests with multiple data sets
+10.Devlop end-to-end functionality Test with all validation and assertions
+11.
+
