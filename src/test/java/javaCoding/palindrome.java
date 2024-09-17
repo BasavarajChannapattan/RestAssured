@@ -3,25 +3,51 @@ package javaCoding;
 public class palindrome {
 
     public static void main(String[] args) {
-        String name = "madam";
 
 
+//        int r, sum=0, temp;
+//
+//        int n= 121;
+//        temp = n;
+//
+//        while(n>0)
+//        {
+//            r= n%10;
+//            sum= (sum*10) +r;
+//            n= n/10;
+//        }
+//
+//        if(temp == sum)
+//        {
+//            System.out.println( " is a palindrome.");
+//        }
+//        else
+//        {
+//            System.out.println( " is not a palindrome.");
+//        }
 
-        if (isPalindrome(name)) {
-            System.out.println("It's a palindrome: " + name);
-        } else {
-            System.out.println("It's not a palindrome: " + name);
-        }
-        int num =121;
-        if (isPalindrome(String.valueOf(num))) {
-            System.out.println("It's a palindrome: " + num);
-        } else {
-            System.out.println("It's not a palindrome: " + num);
-        }
+//        //approach =02
+//        String str ="12321", reversedString="";
+//
+//        int strLength=str.length();
+//
+//        for(int i= (strLength-1); i>=0; i--)
+//        {
+//            reversedString = reversedString+str.charAt(i);
+//        }
+//
+//        if(str.toLowerCase().equals(reversedString.toLowerCase()))
+//        {
+//            System.out.println(str + " is a palindrome.");
+//        }
+//        else
+//        {
+//            System.out.println(str + " is not a palindrome.");
+//        }
+
+
     }
 
-    public static boolean isPalindrome(String str) {
-        String reversedStr = new StringBuilder(str).reverse().toString();
-        return str.equals(reversedStr);
-    }
+
+
 }
